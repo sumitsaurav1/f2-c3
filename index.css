@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+.nav-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+.nav-item{
+    display: flex;
+    gap: 2vw;
+}
+
+.card{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(241,241,241);
+    outline: 0.1px solid gray;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.card div{
+    margin-left: 5px;
+}
+#item-container{
+    margin: 0px 10vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    gap: 1vw;
+}
