@@ -38,7 +38,7 @@ function takeOrder(){
                     burgers.push(itemContainer.children[i].children[1].innerText)
                     let ul=document.getElementById("order-items")
                     let li  = document.createElement("li");
-                    li.innerText=itemContainer.children[i].children[1].innerText
+                    li.innerText=itemContainer.children[i]
                     ul.appendChild(li)
                 })
             }
